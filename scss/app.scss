@@ -1,0 +1,26 @@
+// The path for our ionicons font files, relative to the built CSS in www/css
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+
+// Include all of Ionic
+@import "www/lib/ionic/scss/ionic";
+
+
+.item-complex{ 
+	&.active .item-content,
+	&.activated .item-content,
+	.item-content {
+		background: transparent;
+	}
+}
+
+.icon-large{
+	font-size: 5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+.angular-google-map-container { 
+	height: 700px;
+}
